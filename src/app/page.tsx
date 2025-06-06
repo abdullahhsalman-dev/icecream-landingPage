@@ -46,37 +46,37 @@ export default function IceCreamLanding() {
     {
       name: "Strawberry Bliss",
       price: "$4.99",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "",
       color: "from-pink-400 to-red-400",
     },
     {
       name: "Chocolate Dream",
       price: "$4.99",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "",
       color: "from-amber-600 to-orange-600",
     },
     {
       name: "Vanilla Cloud",
       price: "$4.49",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "",
       color: "from-yellow-300 to-amber-300",
     },
     {
       name: "Mint Chip",
       price: "$5.49",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "",
       color: "from-green-400 to-emerald-400",
     },
     {
       name: "Blueberry Burst",
       price: "$5.99",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "",
       color: "from-blue-400 to-purple-400",
     },
     {
       name: "Caramel Swirl",
       price: "$5.49",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "",
       color: "from-orange-400 to-red-400",
     },
   ];
@@ -115,7 +115,7 @@ export default function IceCreamLanding() {
             <div className="flex items-center space-x-2">
               <div className="w-10 h-10 rounded-full overflow-hidden">
                 <Image
-                  src="/images/logo.png"
+                  src="/file.svg"
                   alt="SweetScoop Logo"
                   width={40}
                   height={40}
@@ -163,7 +163,7 @@ export default function IceCreamLanding() {
       <section id="home" className="pt-20 pb-16 relative overflow-hidden">
         <div className="absolute inset-0 opacity-10 z-0">
           <Image
-            src="/images/hero-bg.png"
+            src="/file.svg"
             alt="Background pattern"
             fill
             className="object-cover"
@@ -207,7 +207,7 @@ export default function IceCreamLanding() {
             <div className="relative">
               <div className="relative z-10 animate-float">
                 <Image
-                  src="/placeholder.svg?height=600&width=600"
+                  src="/file.svg?height=600&width=600"
                   alt="Delicious Ice Cream"
                   width={600}
                   height={600}
@@ -227,7 +227,7 @@ export default function IceCreamLanding() {
       <section id="about" className="py-20 bg-white relative">
         <div className="absolute top-0 right-0 w-64 h-64 opacity-10 z-0 overflow-hidden rounded-bl-full">
           <Image
-            src="/images/about-decoration.png"
+            src="/file.svg"
             alt="Decorative element"
             fill
             className="object-cover"
@@ -289,7 +289,7 @@ export default function IceCreamLanding() {
             </div>
             <div className="relative">
               <Image
-                src="/placeholder.svg?height=500&width=500"
+                src="/file.svg?height=500&width=500"
                 alt="Our Ice Cream Shop"
                 width={500}
                 height={500}
@@ -310,7 +310,7 @@ export default function IceCreamLanding() {
       >
         <div className="absolute inset-0 opacity-5 z-0">
           <Image
-            src="/images/ice-cream-bg-pattern.png"
+            src="/"
             alt="Ice cream pattern"
             fill
             className="object-cover"
@@ -337,7 +337,7 @@ export default function IceCreamLanding() {
                 <CardContent className="p-6">
                   <div className="relative mb-4 overflow-hidden rounded-xl">
                     <Image
-                      src={flavor.image || "/placeholder.svg"}
+                      src={flavor.image || "/file.svg"}
                       alt={flavor.name}
                       width={300}
                       height={300}
@@ -420,7 +420,7 @@ export default function IceCreamLanding() {
       <section className="py-20 bg-gradient-to-br from-purple-50 to-pink-50 relative">
         <div className="absolute inset-0 opacity-10 z-0">
           <Image
-            src="/images/testimonial-bg.png"
+            src="/file.svg"
             alt="Testimonial background"
             fill
             className="object-cover"
@@ -523,7 +523,7 @@ export default function IceCreamLanding() {
             </div>
             <div className="relative">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="/file.svg?height=400&width=600"
                 alt="Our Store"
                 width={600}
                 height={400}
@@ -538,7 +538,7 @@ export default function IceCreamLanding() {
       <section className="py-20 bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 relative">
         <div className="absolute inset-0 opacity-20 z-0">
           <Image
-            src="/images/newsletter-bg.png"
+            src="/file.svg"
             alt="Newsletter background"
             fill
             className="object-cover"
