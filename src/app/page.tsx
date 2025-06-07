@@ -112,15 +112,11 @@ export default function IceCreamLanding() {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             {/* Replace the emoji logo with an actual logo image */}
-            <div className="flex items-center space-x-2">
+            <div className="flex items-center justify-center">
               <div className="w-10 h-10 rounded-full overflow-hidden">
-                <Image
-                  src="/file.svg"
-                  alt="SweetScoop Logo"
-                  width={40}
-                  height={40}
-                  className="w-full h-full object-cover"
-                />
+                <span className="text-white flex items-center justify-center font-bold text-xl">
+                  🍦
+                </span>
               </div>
               <span className="text-2xl font-bold bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">
                 SweetScoop
@@ -163,7 +159,7 @@ export default function IceCreamLanding() {
       <section id="home" className="pt-20 pb-16 relative overflow-hidden">
         <div className="absolute inset-0 opacity-10 z-0">
           <Image
-            src="/file.svg"
+            src="/images/main-icecream.webp"
             alt="Background pattern"
             fill
             className="object-cover"
@@ -207,7 +203,7 @@ export default function IceCreamLanding() {
             <div className="relative">
               <div className="relative z-10 animate-float">
                 <Image
-                  src="/file.svg?height=600&width=600"
+                  src="/images/icecream1.jpg?height=600&width=600"
                   alt="Delicious Ice Cream"
                   width={600}
                   height={600}
@@ -227,7 +223,7 @@ export default function IceCreamLanding() {
       <section id="about" className="py-20 bg-white relative">
         <div className="absolute top-0 right-0 w-64 h-64 opacity-10 z-0 overflow-hidden rounded-bl-full">
           <Image
-            src="/file.svg"
+            src="/images/icecream2.jpg"
             alt="Decorative element"
             fill
             className="object-cover"
@@ -289,7 +285,7 @@ export default function IceCreamLanding() {
             </div>
             <div className="relative">
               <Image
-                src="/file.svg?height=500&width=500"
+                src="/images/icecream3.jpeg?height=500&width=500"
                 alt="Our Ice Cream Shop"
                 width={500}
                 height={500}
@@ -337,7 +333,7 @@ export default function IceCreamLanding() {
                 <CardContent className="p-6">
                   <div className="relative mb-4 overflow-hidden rounded-xl">
                     <Image
-                      src={flavor.image || "/file.svg"}
+                      src={flavor.image || "/images/icecream4.webp"}
                       alt={flavor.name}
                       width={300}
                       height={300}
@@ -523,7 +519,7 @@ export default function IceCreamLanding() {
             </div>
             <div className="relative">
               <Image
-                src="/file.svg?height=400&width=600"
+                src="/images/icrecream5.jpg?height=300&width=400"
                 alt="Our Store"
                 width={600}
                 height={400}
